@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quien soy</title>
+
+    <!--CSS-->
+    <Style>
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Estilo del cuerpo de la pagina */
+        body {
+            font-family: Arial;
+            margin: 0;
+        }
+
+        /* Header, logo y titulo */
+        .header {
+            padding: 60px;
+            text-align: center;
+            background: #2ad2e4;
+            color: blue;
+        }
+
+        /* Estilo de la barra de navegacion */
+        .navbar {
+            display: flex;
+            background-color: #75e42a;
+        }
+
+        /* Estilo de los enlaces de la barra de navegacion */
+        .navbar a {
+            color: black;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        /* Cambiar el color cuando paso el mouse */
+        .navbar a:hover {
+            background-color: blueviolet;
+            color: white;
+        }
+
+        /* Contenedor de columnas */
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        /* Barra lateral */
+        .side {
+            flex: 30%;
+            background-color: #051284;
+            padding: 20px;
+        }
+
+        /*Columna principal */
+        .main {
+            flex: 70%;
+            background-color: #00f7ff;
+            padding: 20px;
+        }
+
+        /* Imagen */
+        .imagenfalsa {
+            width: 100%;
+            padding: 20px;
+        }
+
+        /* Footer */
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background: #5900ff;
+        }
+
+        /*Flex Responsive */
+        @media screen and (max-width: 700px) {
+            .row,
+            .navbar {
+                flex-direction: column;
+            }
+        }
+
+    </Style>
+</head>
+<body>
+    <div style="background: #ff0000; padding: 5px;">
+        <font color="White"><h4 style="text-align: center;">Bienvenidos a mi pagina web, estan en casa</h4></font>
+    </div>
+
+    <!--Header-->
+    <div class="header">
+        <h1> <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9c7fd269-6cc4-49ec-9930-22f17af55bd5/dafl2mu-ca8ffa8f-f5d5-47e2-9f95-978e9e7459ce.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzljN2ZkMjY5LTZjYzQtNDllYy05OTMwLTIyZjE3YWY1NWJkNVwvZGFmbDJtdS1jYThmZmE4Zi1mNWQ1LTQ3ZTItOWY5NS05NzhlOWU3NDU5Y2UuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.rVOdz_6XQSHXVNmzBtzUl51XDs0lWaXPTsqpi0PX7CI" width="50" height="60">Joel Stiven Rodríguez <img src="https://i.pinimg.com/originals/29/9f/18/299f18589b70050383afe3235279702b.gif" width="50" height="60"></h1>
+        <p>Còmico, <b>Divertido</b> y Creativo</p>
+    </div>
+
+    <!--Barra de navegacion-->
+    <div class="navbar">
+        <a href="index.html">Inicio</a>
+        <a href="Quien soy.html">Quien soy</a>
+        <a href="Gustos.html">Gustos</a>
+    </div>
+
+    <!--Contenido-->
+    <div class="row">
+        <div class="side">
+            <font color="White"><h2>Acerca de mi</h2>
+            <h5>Mi foto</h5>
+            <div class="imagenfalsa"> <img src="Imagen/perfil.jpg" width="160" height="200"></div>
+            <p>Joel Stiven Rodríguez Santana es un chico de 14 años actualmente, nacido el 14 de Febrero de 2010 en Santo Domingo Este, Republica Dominicana, ha tenido una gran vida.</p>
+            <h3>Familia</h3>
+            <h5>(Los más cercanos)</h5>
+            <div>
+                <ul>
+                    <li><p>Su padre Màximo Rodrìguez Montesino</li                                                 >
+                    <br>
+                    <li>Alexandra Santana Correa</li>
+                    <br>
+                    <li>Su hermano llamado Yadiel Stiven Rodrìguez</li>
+                    <br>
+                    <li>Su tío Yovanni Alexander.</li>
+                    <br>
+                    <li>Su abuela Marcia Marina Montesino.</li>
+                </ul>
+            </div>
+                <h3>Escuela</h3>
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1507.6764348517672!2d-69.92260132772132!3d18.484917100000022!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf89c78951c3cf%3A0x505aaa4426118d4f!2sCentro%20Educativo%20Santa%20Luisa%20De%20Marillac!5e1!3m2!1ses!2sdo!4v1731416270697!5m2!1ses!2sdo" width="300" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                Joel estudia en el "Centro Educativo Santa Luisa de Marillac" en la Av. San Martín, Santo Domingo. La verdad el no es muy fanático de los estudios, aún así se esfuerza un poco.
+                <br>
+                <br>
+                A la fecha de crear esta página, Joel estaría en 4toB de Informática en el nivel de secundaria.</p></font>
+        </div>
+
+        <div class="main">
+            <section>
+            <h2>Mi Vida</h2>
+            <h5>Descripcion, 5 Noviembre 2024</h5>
+            <p>Fuè criado muy bien por sus padres a lo largo de su vida, al año y medio, aprendiò a hablar y desde entonces habla bastante. 
+                <br>
+                Desde su niñez fuè muy buen estudiante pero con el paso de los años se fue deteriorando ese talento, aun asì sigue siendo un estudiante regular o normal, de todas formas fue teniendole un fuerte desagrado a la escuela, pero no es nada. Despues de todo los estudios no es lo que mas le ha apasionado en la vida.</p>
+                <br>
+                Por su vida ha pasado por las muertes de seres queridos, se despidio de muchas amistades pero ganò otras que sirvieron para que este sea quien es.
+                <br>
+                <br>
+                Llegò a conocer un poco a su difunto abuelo Pablo Rodrìguez Almonte nacido en 19435 y fallecido en 2017, el pequeño Joel logrò conocer a fondo la vida de su abuelo.
+                <br>
+                Su padrino David Correa tambièn fallecerìa en Enero de 2021, le habìa enseñado bastante antes de irse pero no fuè suficiente.
+                <br>
+                Su abuela materna Rosa Evangelista Correa falleciò el 15 de Julio de 2023, siendo una persona que le enseñò mucho a Joel durante toda su vida hasta el dìa de su muerte.</p>
+                <br>
+                Su tìa Niurka Socorro Rodrìguez nacida en 1972 y fallecida en Mayo de 2024, ella le habìa enseñado algunas cosas, no muchas debido a que ella vivìa en Estados Unidos.
+                </section>
+                <h2>Apariencia</h2>
+            <h5>Descripcion, 5 Noviembre 2024</h5>
+            <img src="Imagen/completo.jpg" width="160" height="300">
+            <p>Es un chico robusto de "5,7" pies de alto, un tono de piel mulato un poco claro, pelo negro con los ojos mas lindos de la escuela (segùn los demàs).</p>
+            <p>Tiene una personalidad muy "Extrovertida", le encanta participar en actividades con sus amigos, (segùn los demàs) tambien tiene una personalidad que lo hace:</p>
+            <div>
+                <ul>
+                    <li>Amistoso</li>
+                    <br>
+                    <li>Alegre</li>
+                    <br>
+                    <li>Divertido</li>
+                    <br>
+                    <li>Creativo</li>
+                    <br>
+                    <li> Medio Hiperactivo</li>
+                    <br>
+                    <li>Positivo/Negativo</li>
+                    <br>
+                    <li>Relajado</li>
+                    <br>
+                    <li>Buena Gente</li>
+                    <br>
+                    <li>Rápido</li>
+                    <br>
+                    <li>Tranquilo</li>
+                    <br>
+                    <li>Etc...</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class="footer">
+        <h2>Hecho por: Joel S.Rodríguez</h2>
+    </div>
+</body>
+</html>
